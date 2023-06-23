@@ -11,6 +11,13 @@
 		A138DCFD2A45D57200361319 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138DCFC2A45D57200361319 /* ContentView.swift */; };
 		A138DCFF2A45D57400361319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A138DCFE2A45D57400361319 /* Assets.xcassets */; };
 		A138DD022A45D57400361319 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A138DD012A45D57400361319 /* Preview Assets.xcassets */; };
+		A138DD0A2A45D59B00361319 /* 1 Gesto em SwifitUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138DD092A45D59B00361319 /* 1 Gesto em SwifitUI.swift */; };
+		A138DD0C2A45E05100361319 /* 2 Gesto em SwifitUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138DD0B2A45E05100361319 /* 2 Gesto em SwifitUI.swift */; };
+		A138DD0E2A45E42000361319 /* 3 Gesto em SwifitUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138DD0D2A45E42000361319 /* 3 Gesto em SwifitUI.swift */; };
+		A138DD102A45EC4100361319 /* 4 Bool  Gesto em SwifitUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138DD0F2A45EC4100361319 /* 4 Bool  Gesto em SwifitUI.swift */; };
+		A138DD122A45F30600361319 /* feedbakc Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138DD112A45F30600361319 /* feedbakc Haptics.swift */; };
+		A138DD142A45F78200361319 /* Desabilitando a interacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138DD132A45F78200361319 /* Desabilitando a interacao.swift */; };
+		A138DD162A45FD4300361319 /* Timer Start and Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A138DD152A45FD4300361319 /* Timer Start and Stop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		A138DCFC2A45D57200361319 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A138DCFE2A45D57400361319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A138DD012A45D57400361319 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A138DD092A45D59B00361319 /* 1 Gesto em SwifitUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1 Gesto em SwifitUI.swift"; sourceTree = "<group>"; };
+		A138DD0B2A45E05100361319 /* 2 Gesto em SwifitUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2 Gesto em SwifitUI.swift"; sourceTree = "<group>"; };
+		A138DD0D2A45E42000361319 /* 3 Gesto em SwifitUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3 Gesto em SwifitUI.swift"; sourceTree = "<group>"; };
+		A138DD0F2A45EC4100361319 /* 4 Bool  Gesto em SwifitUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4 Bool  Gesto em SwifitUI.swift"; sourceTree = "<group>"; };
+		A138DD112A45F30600361319 /* feedbakc Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "feedbakc Haptics.swift"; sourceTree = "<group>"; };
+		A138DD132A45F78200361319 /* Desabilitando a interacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Desabilitando a interacao.swift"; sourceTree = "<group>"; };
+		A138DD152A45FD4300361319 /* Timer Start and Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer Start and Stop.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,7 @@
 			children = (
 				A138DCFA2A45D57200361319 /* FlashzillaApp.swift */,
 				A138DCFC2A45D57200361319 /* ContentView.swift */,
+				A138DD082A45D57A00361319 /* Tecnicas */,
 				A138DCFE2A45D57400361319 /* Assets.xcassets */,
 				A138DD002A45D57400361319 /* Preview Content */,
 			);
@@ -65,6 +80,20 @@
 				A138DD012A45D57400361319 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A138DD082A45D57A00361319 /* Tecnicas */ = {
+			isa = PBXGroup;
+			children = (
+				A138DD092A45D59B00361319 /* 1 Gesto em SwifitUI.swift */,
+				A138DD0B2A45E05100361319 /* 2 Gesto em SwifitUI.swift */,
+				A138DD0D2A45E42000361319 /* 3 Gesto em SwifitUI.swift */,
+				A138DD0F2A45EC4100361319 /* 4 Bool  Gesto em SwifitUI.swift */,
+				A138DD112A45F30600361319 /* feedbakc Haptics.swift */,
+				A138DD132A45F78200361319 /* Desabilitando a interacao.swift */,
+				A138DD152A45FD4300361319 /* Timer Start and Stop.swift */,
+			);
+			path = Tecnicas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A138DD102A45EC4100361319 /* 4 Bool  Gesto em SwifitUI.swift in Sources */,
+				A138DD0A2A45D59B00361319 /* 1 Gesto em SwifitUI.swift in Sources */,
 				A138DCFD2A45D57200361319 /* ContentView.swift in Sources */,
+				A138DD0C2A45E05100361319 /* 2 Gesto em SwifitUI.swift in Sources */,
+				A138DD162A45FD4300361319 /* Timer Start and Stop.swift in Sources */,
+				A138DD142A45F78200361319 /* Desabilitando a interacao.swift in Sources */,
 				A138DCFB2A45D57200361319 /* FlashzillaApp.swift in Sources */,
+				A138DD0E2A45E42000361319 /* 3 Gesto em SwifitUI.swift in Sources */,
+				A138DD122A45F30600361319 /* feedbakc Haptics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
